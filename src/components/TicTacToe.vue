@@ -79,6 +79,7 @@ function resetGame() {
 .game-container {
   max-width: 400px;
   margin: 0 auto;
+  font-family: 'Roboto', sans-serif;
 }
 
 .game-status {

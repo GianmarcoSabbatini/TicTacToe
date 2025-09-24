@@ -25,6 +25,7 @@ main.card {
   border-radius: 12px;
   background: #fff;
   box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+  font-family: 'Roboto', sans-serif;
 }
 
 .header { 
