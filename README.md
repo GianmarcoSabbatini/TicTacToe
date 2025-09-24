@@ -64,8 +64,4 @@ npm run preview
 - Rilevazione vincitore e pareggio
 - Reset partita
 
-Struttura principale:
-- `src/components/TicTacToe.vue` – logica e UI del gioco
-- `src/App.vue` – shell applicativa
-- `src/main.js` – bootstrapping Vue
 
