@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180" width="180" height="180">
+  <!-- Sfondo scuro -->
+  <rect width="180" height="180" fill="#1e293b" rx="20"/>
+  
+  <!-- Griglia TicTacToe -->
+  <!-- Linee verticali -->
+  <line x1="60" y1="30" x2="60" y2="150" stroke="#64748b" stroke-width="4"/>
+  <line x1="120" y1="30" x2="120" y2="150" stroke="#64748b" stroke-width="4"/>
+  <!-- Linee orizzontali -->
+  <line x1="30" y1="60" x2="150" y2="60" stroke="#64748b" stroke-width="4"/>
+  <line x1="30" y1="120" x2="150" y2="120" stroke="#64748b" stroke-width="4"/>
+  
+  <!-- X rossa nella cella superiore sinistra -->
+  <g stroke="#ef4444" stroke-width="6" stroke-linecap="round">
+    <line x1="40" y1="40" x2="50" y2="50"/>
+    <line x1="50" y1="40" x2="40" y2="50"/>
+  </g>
+  
+  <!-- O blu nella cella centrale -->
+  <circle cx="90" cy="90" r="12" stroke="#3b82f6" stroke-width="6" fill="none"/>
+  
+  <!-- X rossa nella cella inferiore destra -->
+  <g stroke="#ef4444" stroke-width="6" stroke-linecap="round">
+    <line x1="130" y1="130" x2="140" y2="140"/>
+    <line x1="140" y1="130" x2="130" y2="140"/>
+  </g>
+</svg>
